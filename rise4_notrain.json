@@ -1,0 +1,120 @@
+{
+    "model": {
+        "model_name": "meta-llama/Llama-2-7b-chat-hf",
+        "model_dtype": "bf16",
+        "model_method": "hie2",
+        "model_structure": "llama",
+        "save_ckp": null,
+        "load_ckp": null,
+        "config": "config/rise4.json",
+        "device_map": {
+            "encoder.encoder.model.embed_tokens": 0,
+            "encoder.encoder.model.layers.0": 0,
+            "encoder.encoder.model.layers.1": 0,
+            "encoder.encoder.model.layers.2": 0,
+            "encoder.encoder.model.layers.3": 0,
+            "encoder.encoder.model.layers.4": 1,
+            "encoder.encoder.model.layers.5": 1,
+            "encoder.encoder.model.layers.6": 1,
+            "encoder.encoder.model.layers.7": 1,
+            "encoder.encoder.model.layers.8": 2,
+            "encoder.encoder.model.layers.9": 2,
+            "encoder.encoder.model.layers.10": 2,
+            "encoder.encoder.model.layers.11": 2,
+            "encoder.encoder.model.layers.12": 3,
+            "encoder.encoder.model.layers.13": 3,
+            "encoder.encoder.model.layers.14": 3,
+            "encoder.encoder.model.layers.15": 3,
+            "encoder.encoder.model.layers.16": 4,
+            "encoder.encoder.model.layers.17": 4,
+            "encoder.encoder.model.layers.18": 4,
+            "encoder.encoder.model.layers.19": 4,
+            "encoder.encoder.model.layers.20": 5,
+            "encoder.encoder.model.layers.21": 5,
+            "encoder.encoder.model.layers.22": 5,
+            "encoder.encoder.model.layers.23": 5,
+            "encoder.encoder.model.layers.24": 6,
+            "encoder.encoder.model.layers.25": 6,
+            "encoder.encoder.model.layers.26": 6,
+            "encoder.encoder.model.layers.27": 6,
+            "encoder.encoder.model.layers.28": 7,
+            "encoder.encoder.model.layers.29": 7,
+            "encoder.encoder.model.layers.30": 7,
+            "encoder.encoder.model.layers.31": 7,
+            "encoder.encoder.model.norm": 7,
+            "encoder.encoder.lm_head": 7,
+            "decoder.decoder.model.embed_tokens": 0,
+            "decoder.decoder.model.layers.0": 0,
+            "decoder.decoder.model.layers.1": 0,
+            "decoder.decoder.model.layers.2": 0,
+            "decoder.decoder.model.layers.3": 0,
+            "decoder.decoder.model.layers.4": 1,
+            "decoder.decoder.model.layers.5": 1,
+            "decoder.decoder.model.layers.6": 1,
+            "decoder.decoder.model.layers.7": 1,
+            "decoder.decoder.model.layers.8": 2,
+            "decoder.decoder.model.layers.9": 2,
+            "decoder.decoder.model.layers.10": 2,
+            "decoder.decoder.model.layers.11": 2,
+            "decoder.decoder.model.layers.12": 3,
+            "decoder.decoder.model.layers.13": 3,
+            "decoder.decoder.model.layers.14": 3,
+            "decoder.decoder.model.layers.15": 3,
+            "decoder.decoder.model.layers.16": 4,
+            "decoder.decoder.model.layers.17": 4,
+            "decoder.decoder.model.layers.18": 4,
+            "decoder.decoder.model.layers.19": 4,
+            "decoder.decoder.model.layers.20": 5,
+            "decoder.decoder.model.layers.21": 5,
+            "decoder.decoder.model.layers.22": 5,
+            "decoder.decoder.model.layers.23": 5,
+            "decoder.decoder.model.layers.24": 6,
+            "decoder.decoder.model.layers.25": 6,
+            "decoder.decoder.model.layers.26": 6,
+            "decoder.decoder.model.layers.27": 6,
+            "decoder.decoder.model.layers.28": 7,
+            "decoder.decoder.model.layers.29": 7,
+            "decoder.decoder.model.layers.30": 7,
+            "decoder.decoder.model.layers.31": 7,
+            "decoder.decoder.model.norm": 7,
+            "decoder.decoder.lm_head": 7,
+            "init_memory": 7
+        }
+    },
+
+    "train": {
+        "train_iters": 30000,
+        "max_lr": 0,
+        "warmup": 0.001,
+        "corpus": [
+            {
+                "name": "redpajama book sample.train.1m",
+                "partition": 0.025,
+                "truncation": 100000
+            },
+            {
+                "name": "redpajama arxiv sample.train.1m",
+                "partition": 0.025,
+                "truncation": 100000
+            },
+            {
+                "name": "beacons sampled.8192.no_alpaca",
+                "partition": 0.95,
+                "truncation": null
+            }
+        ],
+        "accum_grad": 1,
+        "clip_grad": 1.0,
+
+        "save": 1000,
+        "eval": 1000,
+        "tasks": [
+            {
+                "task_type": "perplexity",
+                "task_name": "pg19.test.128k",
+                "num_instance": 10,
+                "truncation": 100000
+            }
+        ]
+    }
+}

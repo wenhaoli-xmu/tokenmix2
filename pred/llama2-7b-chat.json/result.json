@@ -1,0 +1,13 @@
+{
+    "vcsum": 0.0,
+    "passage_retrieval_zh": 0.75,
+    "trec": 63.0,
+    "passage_retrieval_en": 4.12,
+    "lsht": 16.75,
+    "passage_count": 0.59,
+    "repobench-p": 53.35,
+    "lcc": 61.09,
+    "samsum": 0.0,
+    "multi_news": 0.0,
+    "triviaqa": 83.46
+}

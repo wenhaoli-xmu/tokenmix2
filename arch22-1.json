@@ -1,0 +1,36 @@
+{
+    "model": {
+        "model_name": "meta-llama/Llama-2-7b-chat-hf",
+        "model_dtype": "bf16",
+        "model_method": "arch22",
+        "model_structure": "llama",
+        "save_ckp": "ckp/arch22-1.pth",
+        "load_ckp": null,
+        "config": "config/arch22-16.json",
+        "device_map": {
+            "": "cpu"
+        }
+    },
+
+    "train": {
+        "train_iters": 10000,
+        "max_lr": 3e-6,
+        "warmup": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "weight_decay": 0,
+        "corpus": [
+            {
+                "name": "beacons sampled.8192",
+                "partition": 1,
+                "truncation": null
+            }
+        ],
+        "accum_grad": 1,
+        "clip_grad": 1.0,
+
+        "save": 1000,
+        "eval": 1000,
+        "tasks": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "chunk_size": 256,
+    "history": 0,
+    "retrieval": "avgpool",
+    "reduction": {
+        "enable_random": true,
+        "max_chunk": null
+    },
+    "enable_lora": true,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    },
+    "attn_mode": "legacy"
+}

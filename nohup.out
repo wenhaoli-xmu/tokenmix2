@@ -1,0 +1,168 @@
+Traceback (most recent call last):
+  File "/home/lwh/token-mix-2/train_pipeline.py", line 15, in <module>
+    tokenizer, model = get_model_and_tokenizer(**env_conf['model'])
+  File "/home/lwh/token-mix-2/src/misc.py", line 169, in get_model_and_tokenizer
+    student = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=student_dtype, token=token)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 488, in from_pretrained
+    resolved_config_file = cached_file(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/transformers/utils/hub.py", line 389, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1238, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1631, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 385, in _request_wrapper
+    response = _request_wrapper(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 408, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 67, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Traceback (most recent call last):
+  File "/home/lwh/token-mix-2/test.py", line 18, in <module>
+    tokenizer, model = get_model_and_tokenizer(**env_conf["model"])
+  File "/home/lwh/token-mix-2/src/misc.py", line 165, in get_model_and_tokenizer
+    from accelerate import dispatch_model
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/accelerate/__init__.py", line 3, in <module>
+    from .accelerator import Accelerator
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/accelerate/accelerator.py", line 35, in <module>
+    from .checkpointing import load_accelerator_state, load_custom_state, save_accelerator_state, save_custom_state
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/accelerate/checkpointing.py", line 24, in <module>
+    from .utils import (
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/accelerate/utils/__init__.py", line 152, in <module>
+    from .fsdp_utils import load_fsdp_model, load_fsdp_optimizer, save_fsdp_model, save_fsdp_optimizer
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/accelerate/utils/fsdp_utils.py", line 25, in <module>
+    import torch.distributed.checkpoint as dist_cp
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/checkpoint/__init__.py", line 2, in <module>
+    from .default_planner import DefaultLoadPlanner, DefaultSavePlanner
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/checkpoint/default_planner.py", line 13, in <module>
+    from torch.distributed._tensor import DTensor
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/_tensor/__init__.py", line 6, in <module>
+    import torch.distributed._tensor.ops
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/_tensor/ops/__init__.py", line 2, in <module>
+    from .embedding_ops import *  # noqa: F403
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/_tensor/ops/embedding_ops.py", line 8, in <module>
+    import torch.distributed._functional_collectives as funcol
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/_functional_collectives.py", line 12, in <module>
+    from . import _functional_collectives_impl as fun_col_impl
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/distributed/_functional_collectives_impl.py", line 36, in <module>
+    from torch._dynamo import assume_constant_result
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 2, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 31, in <module>
+    from torch.fx.experimental.symbolic_shapes import (
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/fx/experimental/symbolic_shapes.py", line 814, in <module>
+    class EqualityConstraint(Constraint):
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/fx/experimental/symbolic_shapes.py", line 832, in EqualityConstraint
+    source_pairs: List[Tuple[Source, Source]]
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/typing.py", line 309, in inner
+    return cached(*args, **kwds)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/typing.py", line 1223, in __getitem__
+    @_tp_cache
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/lwh/token-mix-2/train_pipeline.py", line 1, in <module>
+    from src.misc import get_model_and_tokenizer, get_env_conf, get_data_generator_deepspeed, Saver, Evaluator, get_optimizer_and_lr_adjuster
+  File "/home/lwh/token-mix-2/src/misc.py", line 3, in <module>
+    import torch
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/__init__.py", line 1919, in <module>
+    from . import _meta_registrations
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/_meta_registrations.py", line 9, in <module>
+    from torch._decomp import (
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 244, in <module>
+    import torch._decomp.decompositions
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/torch/_decomp/decompositions.py", line 416, in <module>
+    def smooth_l1_loss(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/lwh/token-mix-2/train_pipeline_v2.py", line 1, in <module>
+    from src.misc import get_model_and_tokenizer, get_env_conf, get_data_generator_deepspeed, Saver, Evaluator, get_optimizer_and_lr_adjuster
+  File "/home/lwh/token-mix-2/src/misc.py", line 8, in <module>
+    from src.data import get_corpus
+  File "/home/lwh/token-mix-2/src/data.py", line 3, in <module>
+    from datasets import load_dataset
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/datasets/__init__.py", line 22, in <module>
+    from .arrow_dataset import Dataset
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 59, in <module>
+    import pandas as pd
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.accessors import (
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pandas/core/arrays/arrow/accessors.py", line 23, in <module>
+    import pyarrow.compute as pc
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pyarrow/compute.py", line 103, in <module>
+    from pyarrow.vendored import docscrape
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pyarrow/vendored/docscrape.py", line 118, in <module>
+    class NumpyDocString(Mapping):
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/site-packages/pyarrow/vendored/docscrape.py", line 275, in NumpyDocString
+    _line_rgx = re.compile(
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 681, in _parse
+    subpattern[-1] = (MAX_REPEAT, (min, max, item))
+  File "/home/lwh/miniconda3/envs/omniquant/lib/python3.10/sre_parse.py", line 169, in __setitem__
+    def __setitem__(self, index, code):
+KeyboardInterrupt

@@ -1,0 +1,17 @@
+# logs
+log/
+wandb/
+
+# checkpoints
+ckp/
+*.pth
+
+# datasets
+mmlu/
+LongBench/
+raw_data/
+data/
+data_cache/
+
+# misc
+*.egg-info/

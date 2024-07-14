@@ -1,0 +1,12 @@
+{
+    "chunk_size": 64,
+    "tune_mlp": true,
+    "enable_lora": true,
+    "forget_gain": 1,
+    "use_norm": true,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}

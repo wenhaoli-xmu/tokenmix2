@@ -1,0 +1,13 @@
+1. Memory-Enhanced Transformers
+Recent studies highlight the growing interest in memory-enhanced transformers for long text extrapolation. 
+Pioneering work, RMT~\cite{bulatov2022recurrent}, combines RNN with transformer for segment-level recurrence but struggles with long-term dependencies.
+
+2. Context Distillation
+Context distillation has emerged as an effective approach for knowledge compression and transfer.
+Early studies, such as Wingate's research~\cite{wingate-etal-2022-prompt}, focus on compressing prompts by replacing them with shorter learnable prompts.
+
+3. Unbiased BPTT Approximation
+RNNs have played a prominent role in sequence models, with training often relying on the resource-intensive Back-Propagation Through Time method (BPTT)~\cite{Mozer1989AFB}.
+Researchers have proposed unbiased approximations like NoBackTrack~\cite{ollivier2015training} and UORO~\cite{tallec2018unbiased} to reduce memory and compute overhead.
+
+Question: Summarize the above paragraphs.

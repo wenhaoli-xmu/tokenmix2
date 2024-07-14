@@ -1,0 +1,24 @@
+**Memory-Enhanced Transformers**
+Recent studies highlight the growing interest in memory-enhanced transformers for long text extrapolation. 
+Pioneering work, RMT~\cite{bulatov2022recurrent}, combines RNN with transformer for segment-level recurrence but struggles with long-term dependencies.
+AutoCompressor~\cite{chevalier2023adapting} improves this by using a fully-connected RNN, though its LongBench~\cite{bai2023longbench} performance can be enhanced. Activation Beacon~\cite{zhang2024soaring} introduces two key improvements of direct migration of memory activation from the encoder to the decoder and a dedicated multi-head attention (MHA) module for memory, significantly enhancing its performance. 
+The BABILong~\cite{kuratov2024search} study shows that the GPT-2~\cite{radford2019language} + RMT model outperforms advanced models like GPT-4~\cite{openai2024gpt4} and GPT-3.5 in handling extensive contextual information, underscoring the potential of memory-enhanced transformers.
+
+**Context Distillation**
+Context distillation has emerged as an effective approach for knowledge compression and transfer.
+Early studies, such as Wingate's research~\cite{wingate-etal-2022-prompt}, focus on compressing prompts by replacing them with shorter learnable prompts.
+This method laid the foundation for subsequent research. 
+Gist Tokens~\cite{mu2023learning} advances this concept by training general-purpose summary tokens, allowing prompt compression without separate training.
+We utilize a similar approach with learnable prompts for context compression.
+The ICAE~\cite{ge2024incontext} model builds upon Gist Tokens, incorporating LoRA fine-tuning and an auto-encoding task for training.
+With a four-times compression rate, ICAE demonstrates near-perfect input reconstruction accuracy.
+Moreover, ICAE reveals similarities between context distillation in LLMs and human memory processes, supporting the feasibility of memory-enhanced transformers and suggesting new research directions.
+
+**Unbiased BPTT Approximation**
+RNNs have played a prominent role in sequence models, with training often relying on the resource-intensive Back-Propagation Through Time method (BPTT)~\cite{Mozer1989AFB}.
+Researchers have proposed unbiased approximations like NoBackTrack~\cite{ollivier2015training} and UORO~\cite{tallec2018unbiased} to reduce memory and compute overhead.
+Despite introducing noise in gradient estimation, these methods open new possibilities for efficient sequence model training.
+ARTBP~\cite{tallec2018unbiasing} mitigates noise by using a flexible memory approach and incorporating compensatory factors, maintaining accuracy and efficiency for long sequences.
+While these methods have advanced sequence model research, they are not directly applicable to memory-enhanced transformers due to their focus on regular RNNs and lack of consideration for specific constraints in memory-enhanced transformers.
+
+Question: Tell me the titles of the three paragraphs.

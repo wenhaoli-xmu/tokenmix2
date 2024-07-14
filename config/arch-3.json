@@ -1,0 +1,11 @@
+{
+    "chunk_size": 64,
+    "memory_mask": "full",
+    
+    "enable_lora": true,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}

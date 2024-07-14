@@ -1,0 +1,25 @@
+{
+    "concat": {
+        "input": {
+            "trunc_rear": true,
+            "txt_trunc": 96,
+            "tok_max": null,
+            "tok_min": 1024,
+            "train": false,
+            "action": null
+        },
+        "output": {
+            "trunc_rear": true,
+            "txt_trunc": 96,
+            "tok_max": null,
+            "tok_min": null,
+            "train": true,
+            "action": null
+        }
+    },
+    "truncation": {
+        "enable": true,
+        "max_tokens": 16384,
+        "order": ["input", "output"]
+    }
+}

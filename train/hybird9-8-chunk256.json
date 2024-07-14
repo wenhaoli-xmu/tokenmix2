@@ -1,0 +1,92 @@
+{
+    "model": {
+        "model_name": "togethercomputer/LLaMA-2-7B-32K",
+        "tokenizer_name": "meta-llama/Llama-2-7b-chat-hf",
+        "model_dtype": "bf16",
+        "model_method": "hybird9",
+        "model_structure": "llama",
+        "save_ckp": "ckp/hybird9-8-chunk256.pth",
+        "load_ckp": null,
+        "config": "config/hybird9-256.json",
+        "device_map": {
+            "decoder.sum_token": 0,
+            "decoder.decoder.base_model.model.model.embed_tokens": 0,
+            "decoder.decoder.base_model.model.model.layers.0": 0,
+            "decoder.decoder.base_model.model.model.layers.1": 0,
+            "decoder.decoder.base_model.model.model.layers.2": 0,
+            "decoder.decoder.base_model.model.model.layers.3": 0,
+            "decoder.decoder.base_model.model.model.layers.4": 0,
+            "decoder.decoder.base_model.model.model.layers.5": 0,
+            "decoder.decoder.base_model.model.model.layers.6": 0,
+            "decoder.decoder.base_model.model.model.layers.7": 0,
+            "decoder.decoder.base_model.model.model.layers.8": 1,
+            "decoder.decoder.base_model.model.model.layers.9": 1,
+            "decoder.decoder.base_model.model.model.layers.10": 1,
+            "decoder.decoder.base_model.model.model.layers.11": 1,
+            "decoder.decoder.base_model.model.model.layers.12": 1,
+            "decoder.decoder.base_model.model.model.layers.13": 1,
+            "decoder.decoder.base_model.model.model.layers.14": 1,
+            "decoder.decoder.base_model.model.model.layers.15": 1,
+            "decoder.decoder.base_model.model.model.layers.16": 2,
+            "decoder.decoder.base_model.model.model.layers.17": 2,
+            "decoder.decoder.base_model.model.model.layers.18": 2,
+            "decoder.decoder.base_model.model.model.layers.19": 2,
+            "decoder.decoder.base_model.model.model.layers.20": 2,
+            "decoder.decoder.base_model.model.model.layers.21": 2,
+            "decoder.decoder.base_model.model.model.layers.22": 2,
+            "decoder.decoder.base_model.model.model.layers.23": 2,
+            "decoder.decoder.base_model.model.model.layers.24": 3,
+            "decoder.decoder.base_model.model.model.layers.25": 3,
+            "decoder.decoder.base_model.model.model.layers.26": 3,
+            "decoder.decoder.base_model.model.model.layers.27": 3,
+            "decoder.decoder.base_model.model.model.layers.28": 3,
+            "decoder.decoder.base_model.model.model.layers.29": 3,
+            "decoder.decoder.base_model.model.model.layers.30": 3,
+            "decoder.decoder.base_model.model.model.layers.31": 3,
+            "decoder.decoder.base_model.model.model.norm": 3,
+            "decoder.decoder.base_model.model.lm_head": 3
+        }
+    },
+
+    "train": {
+        "train_iters": 40000,
+        "max_lr": 2e-5,
+        "warmup": 0.001,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "weight_decay": 0,
+        "corpus": [
+            {
+                "data": "/data/lwh/activation-beacon-new/gpt/one_detail_book.train.8K.json",
+                "conf": "config/conversation_trunc32k.json",
+                "partition": 0.425
+            },
+            {
+                "data": "/data/lwh/activation-beacon-new/gpt/one_detail_paper.train.8K.json",
+                "conf": "config/conversation_trunc32k.json",
+                "partition": 0.13
+            },
+            {
+                "data": "/data/lwh/activation-beacon-new/longalpaca/train.json",
+                "conf": "config/conversation_trunc32k.json",
+                "partition": 0.3
+            },
+            {
+                "data": "/data/lwh/activation-beacon-new/booksum/train.8K.json",
+                "conf": "config/conversation_trunc32k.json",
+                "partition": 0.12
+            },
+            {
+                "data": "/data/lwh/activation-beacon-new/needle/train.8K.json",
+                "conf": "config/conversation_trunc32k.json",
+                "partition": 0.025
+            }
+        ],
+        "accum_grad": 8,
+        "clip_grad": 1.0,
+
+        "save": 10000,
+        "eval": 10000,
+        "tasks": []
+    }
+}

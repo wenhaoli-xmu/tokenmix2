@@ -1,0 +1,12 @@
+{
+    "chunk_size": 64,
+    "init_method": "decoder cross attn",
+    "gate_config": "forget",
+    "dec_cros_attn_rope": true,
+    "enable_lora": true,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}

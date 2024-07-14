@@ -1,0 +1,23 @@
+{
+    "gov_report": 0.0,
+    "vcsum": 0.0,
+    "passage_retrieval_zh": 0.0,
+    "hotpotqa": 6.16,
+    "trec": 71.0,
+    "passage_retrieval_en": 0.25,
+    "multifieldqa_zh": 3.65,
+    "lsht": 31.0,
+    "passage_count": 0.25,
+    "repobench-p": 59.82,
+    "2wikimqa": 6.55,
+    "lcc": 62.18,
+    "musique": 3.52,
+    "samsum": 0.0,
+    "qmsum": 0.0,
+    "multi_news": 0.0,
+    "qasper": 6.04,
+    "triviaqa": 87.79,
+    "narrativeqa": 1.35,
+    "multifieldqa_en": 0.49,
+    "dureader": 0.0
+}

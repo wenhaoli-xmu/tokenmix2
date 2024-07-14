@@ -1,0 +1,33 @@
+{
+    "concat": {
+        "context": {
+            "trunc_rear": false,
+            "txt_trunc": 96,
+            "tok_max": null,
+            "tok_min": 1024,
+            "train": false,
+            "action": null
+        },
+        "input": {
+            "trunc_rear": true,
+            "txt_trunc": 96,
+            "tok_max": null,
+            "tok_min": null,
+            "train": false,
+            "action": null
+        },
+        "answer": {
+            "trunc_rear": true,
+            "txt_trunc": 96,
+            "tok_max": null,
+            "tok_min": null,
+            "train": true,
+            "action": ["choice"]
+        }
+    },
+    "truncation": {
+        "enable": true,
+        "max_tokens": 16384,
+        "order": ["context", "answer", "input"]
+    }
+}

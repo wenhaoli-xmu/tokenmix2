@@ -1,0 +1,155 @@
+import torch
+import types
+from src.modifiers.modify_llama import do_causal_flash_attn, ProjectHead
+from peft import get_peft_model, LoraConfig, TaskType
+
+
+def model_forward(
+    self,
+    inputs_embeds: torch.Tensor,
+    memory: torch.Tensor,
+    **kwargs
+):
+    memory = self.model(
+        inputs_embeds=inputs_embeds,
+        memory=memory
+    )
+
+    return memory
+
+
+def model_model_forward(
+    self,
+    inputs_embeds: torch.Tensor,
+    memory: torch.Tensor
+):
+    assert memory.ndim == 3 and memory.shape[0] == 32 and memory.shape[-1] == 4096
+
+    hidden_states = inputs_embeds
+    updated_memory = []
+
+    for decoder_layer, memory_states in zip(self.layers, memory.chunk(32)):
+        updated_memory += [hidden_states.cpu()]
+
+        hidden_states = decoder_layer(
+            hidden_states=hidden_states,
+            memory_states=memory_states
+        )
+
+    return torch.cat(updated_memory, dim=0)
+
+
+def layer_forward(
+    self,
+    hidden_states: torch.Tensor,
+    memory_states: torch.Tensor,
+):
+    memory_states = memory_states.to(hidden_states.device)
+
+    residual = hidden_states
+    hidden_states = self.input_layernorm(hidden_states)
+    hidden_states = self.self_attn(hidden_states, memory_states)
+    hidden_states = residual + hidden_states
+
+    residual = hidden_states
+    hidden_states = self.post_attention_layernorm(hidden_states)
+    hidden_states = self.mlp(hidden_states)
+    hidden_states = residual + hidden_states
+
+    return hidden_states
+
+
+def attn_forward(
+    self,
+    hidden_states: torch.Tensor,
+    memory_states: torch.Tensor
+):
+    keys = self.k_proj(hidden_states).unflatten(-1, (32,128)).transpose(1,2)
+    vals = self.v_proj(hidden_states).unflatten(-1, (32,128)).transpose(1,2)
+    memory_keys, memory_vals = self.project_head(memory_states)
+
+    ques = self.q_proj(hidden_states).unflatten(-1, (32,128)).transpose(1,2)
+    keys = torch.cat([memory_keys, keys], dim=-2)
+    vals = torch.cat([memory_vals, vals], dim=-2)
+
+    cos, sin = self.rotary_emb(vals, seq_len=4096)
+    attn_output = do_causal_flash_attn(ques, keys, vals, cos, sin, self.o_proj)
+
+    return attn_output
+
+
+class Encoder(torch.nn.Module):
+    def _init_lora(self, lora_rank, lora_alpha, lora_dropout):
+        encoder_peft_config = LoraConfig(
+            task_type=TaskType.CAUSAL_LM,
+            r=lora_rank,
+            lora_alpha=lora_alpha,
+            lora_dropout=lora_dropout,
+            target_modules=['q_proj', 'v_proj', 'key_proj', 'val_proj']
+        )
+        self.encoder = get_peft_model(self.encoder, encoder_peft_config)
+
+
+    @property
+    def layers(self):
+        if self.enable_lora:
+            return self.encoder.base_model.model.model.layers
+        else:
+            return self.encoder.model.layers
+
+
+    @property
+    def model(self):
+        if self.enable_lora:
+            return self.encoder.base_model.model
+        else:
+            return self.encoder
+
+
+    def __init__(self, encoder, chunk_size, enable_lora: bool, lora_kwargs: dict = None):
+        super().__init__()
+        self.encoder = encoder
+        self.chunk_size = chunk_size
+        self.enable_lora = False
+        
+        # 配置新的forward函数
+        self.model.forward = types.MethodType(model_forward, self.model)
+        self.model.model.forward = types.MethodType(model_model_forward, self.model.model)
+        for layer in self.layers:
+            layer.forward = types.MethodType(layer_forward, layer)
+            layer.self_attn.forward = types.MethodType(attn_forward, layer.self_attn)
+            layer.self_attn.project_head = ProjectHead(layer)
+
+        # 配置lora
+        self.enable_lora = enable_lora
+        if self.enable_lora:
+            self._init_lora(**lora_kwargs)
+
+
+    def ft_params(self):
+        params = []
+        for layer in self.layers:
+            if self.enable_lora:
+                params += [
+                    layer.self_attn.q_proj.lora_A.default.weight,
+                    layer.self_attn.q_proj.lora_B.default.weight,
+                    layer.self_attn.v_proj.lora_A.default.weight,
+                    layer.self_attn.v_proj.lora_B.default.weight,
+                    layer.self_attn.project_head.key_proj.lora_A.default.weight,
+                    layer.self_attn.project_head.key_proj.lora_B.default.weight,
+                    layer.self_attn.project_head.val_proj.lora_A.default.weight,
+                    layer.self_attn.project_head.val_proj.lora_B.default.weight
+                ]
+            else:
+                params += [
+                    layer.self_attn.q_proj.weight,
+                    layer.self_attn.v_proj.weight,
+                    *layer.self_attn.project_head.parameters()
+                ]
+        return params
+
+
+    def forward(self, input_ids, memory):
+        inputs_embeds = self.model.model.embed_tokens(input_ids).cpu()
+        memory = self.encoder(inputs_embeds=inputs_embeds, memory=memory)
+        return memory

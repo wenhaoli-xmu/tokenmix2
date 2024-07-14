@@ -1,0 +1,11 @@
+{
+    "chunk_size": 4,
+    "shift_mask": true,
+    "cat_stage": "stage1",
+    "enable_lora": true,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}

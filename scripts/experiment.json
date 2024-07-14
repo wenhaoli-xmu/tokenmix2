@@ -1,0 +1,14 @@
+[
+    [
+        {
+            "script": "mmlu/evaluate.py",
+            "env_conf": "hybird7-7.json",
+            "log": "log/mmlu_hybird7-7.log"
+        },
+        {
+            "script": "lmeval.py",
+            "env_conf": "hybird7-7.json",
+            "log": "log/lmeval_hybird7-7.log"
+        }
+    ]
+]

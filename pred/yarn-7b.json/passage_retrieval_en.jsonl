@@ -1,0 +1,200 @@
+{"pred": "30.", "answers": ["Paragraph 15"], "all_classes": null, "length": 8525}
+{"pred": "1\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: Paragraph ", "answers": ["Paragraph 8"], "all_classes": null, "length": 8679}
+{"pred": "1\n\nAnswer format: Paragraph 1", "answers": ["Paragraph 18"], "all_classes": null, "length": 9562}
+{"pred": "26", "answers": ["Paragraph 17"], "all_classes": null, "length": 9273}
+{"pred": "30", "answers": ["Paragraph 14"], "all_classes": null, "length": 9175}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 3"], "all_classes": null, "length": 9139}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 24"], "all_classes": null, "length": 8832}
+{"pred": "18.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8995}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 30"], "all_classes": null, "length": 7789}
+{"pred": "30.\n\nAnswer format:\n\nParagraph 1\n\nParagraph 2\n\nParagraph 3\n\nParagraph 4", "answers": ["Paragraph 12"], "all_classes": null, "length": 10027}
+{"pred": "10.", "answers": ["Paragraph 22"], "all_classes": null, "length": 9273}
+{"pred": "2\n\nThe correct answer is: 3\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.", "answers": ["Paragraph 30"], "all_classes": null, "length": 10178}
+{"pred": "1", "answers": ["Paragraph 24"], "all_classes": null, "length": 9221}
+{"pred": "13\n\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 9718}
+{"pred": "14.", "answers": ["Paragraph 3"], "all_classes": null, "length": 11340}
+{"pred": "30", "answers": ["Paragraph 8"], "all_classes": null, "length": 9750}
+{"pred": "1.\n\nAnswer:\n\n\n  This history, Scalia concluded, clearly shows that the Confrontation Clause was directed at keeping \"", "answers": ["Paragraph 3"], "all_classes": null, "length": 8965}
+{"pred": "20.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Par", "answers": ["Paragraph 17"], "all_classes": null, "length": 8965}
+{"pred": "2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 4"], "all_classes": null, "length": 9275}
+{"pred": "1\n\nThe following is an abstract.\n\nThis text describes Valentin Stănescu, who was born in 1929, in", "answers": ["Paragraph 3"], "all_classes": null, "length": 10934}
+{"pred": "26.", "answers": ["Paragraph 24"], "all_classes": null, "length": 9713}
+{"pred": "30\n\nThe answer is: 29\n\nThe answer is: 28\n\nThe answer is: 27\n\nThe", "answers": ["Paragraph 2"], "all_classes": null, "length": 9947}
+{"pred": "21\n\nThe answer is: 20\n\nThe answer is: 17\n\nThe answer is: 27\n\nThe", "answers": ["Paragraph 6"], "all_classes": null, "length": 8991}
+{"pred": "1.\n\nThe following is an abstract.\n\nThe text is a summary of the career path of a person named Sallói in the field", "answers": ["Paragraph 12"], "all_classes": null, "length": 9211}
+{"pred": "1.\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 8267}
+{"pred": "30\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 2", "answers": ["Paragraph 30"], "all_classes": null, "length": 8180}
+{"pred": "30\n\nComment\n\nThe answer is: 30\n\nComment\n\nThe answer is: 30\n\nComment\n\nThe", "answers": ["Paragraph 1"], "all_classes": null, "length": 10576}
+{"pred": "1\n\nThe following is an abstract.\n\nParagraph 1: After thwarting Zeev and Judy's plot, the Greenhouse", "answers": ["Paragraph 6"], "all_classes": null, "length": 9513}
+{"pred": "10.", "answers": ["Paragraph 8"], "all_classes": null, "length": 9747}
+{"pred": "2.", "answers": ["Paragraph 3"], "all_classes": null, "length": 7534}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 1"], "all_classes": null, "length": 9908}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 25"], "all_classes": null, "length": 8838}
+{"pred": "1\n\nThe abstract is from: 1. On September 16, 1998, Olímpico won the CMLL World Wel", "answers": ["Paragraph 19"], "all_classes": null, "length": 10016}
+{"pred": "30", "answers": ["Paragraph 22"], "all_classes": null, "length": 7992}
+{"pred": "20\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.", "answers": ["Paragraph 5"], "all_classes": null, "length": 9899}
+{"pred": "30\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 15"], "all_classes": null, "length": 9483}
+{"pred": "2\n\nThe following is a paragraph from Wikipedia.\n\nThe Cycadeoideaceae (originally “Cycadeoideae”) were named", "answers": ["Paragraph 28"], "all_classes": null, "length": 10118}
+{"pred": "30\n\nAnswer: 30\n\nAnswer: 30\n\nAnswer: 30\n\nAnswer: 30\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 8975}
+{"pred": "1", "answers": ["Paragraph 30"], "all_classes": null, "length": 9934}
+{"pred": "20\n\nThe abstract is:  The Finn Episode is a section of Beowulf that describes the hero's fight with the monster Gr", "answers": ["Paragraph 6"], "all_classes": null, "length": 7736}
+{"pred": "30.", "answers": ["Paragraph 12"], "all_classes": null, "length": 8771}
+{"pred": "19\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.", "answers": ["Paragraph 26"], "all_classes": null, "length": 10004}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 30"], "all_classes": null, "length": 9000}
+{"pred": "1\n\nThe answer format is: Paragraph 1", "answers": ["Paragraph 6"], "all_classes": null, "length": 10255}
+{"pred": "1\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 2\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 8776}
+{"pred": "1499\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is:", "answers": ["Paragraph 23"], "all_classes": null, "length": 10742}
+{"pred": "30.\n\nAnswer: 30\n\nThe following is an abstract.\n\nThe summary of the text is as follows:\n\nThe", "answers": ["Paragraph 17"], "all_classes": null, "length": 10320}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text discusses the career of Australian cricketer Albert Trumble. Trumble made the most of", "answers": ["Paragraph 1"], "all_classes": null, "length": 8971}
+{"pred": "30\n\nThe following is a paragraph from Wikipedia.\n\nThe text describes the architectural features of square symmetrical towers in the neoclass", "answers": ["Paragraph 27"], "all_classes": null, "length": 10277}
+{"pred": "18.", "answers": ["Paragraph 21"], "all_classes": null, "length": 9525}
+{"pred": "1.\n\nThe answer is: 2.\n\nThe answer is: 3.\n\nThe answer is: 4.\n\nThe", "answers": ["Paragraph 27"], "all_classes": null, "length": 8674}
+{"pred": "12\n\nThe answer is: 12\n\nThe answer is: 12\n\nThe answer is: 12\n\nThe", "answers": ["Paragraph 29"], "all_classes": null, "length": 8629}
+{"pred": "12", "answers": ["Paragraph 28"], "all_classes": null, "length": 9970}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 7"], "all_classes": null, "length": 8791}
+{"pred": "1.", "answers": ["Paragraph 15"], "all_classes": null, "length": 9949}
+{"pred": "1.\n\nThe answer is: 2.\n\nThe answer is: 3.\n\nThe answer is: 4.\n\nThe", "answers": ["Paragraph 22"], "all_classes": null, "length": 9832}
+{"pred": "1\n\nAnswer: Paragraph 1", "answers": ["Paragraph 16"], "all_classes": null, "length": 8952}
+{"pred": "2\n\n\n", "answers": ["Paragraph 14"], "all_classes": null, "length": 8253}
+{"pred": "30\n\nThe answer format is: \"Paragraph 1\", \"Paragraph 2\", etc.\n\nPlease enter the number of the paragraph", "answers": ["Paragraph 29"], "all_classes": null, "length": 10431}
+{"pred": "30", "answers": ["Paragraph 19"], "all_classes": null, "length": 10196}
+{"pred": "30\n\nThe following is an abstract.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"", "answers": ["Paragraph 28"], "all_classes": null, "length": 10633}
+{"pred": "21\n\nThe abstract is: \"In the book PiHKAL, author Shulgin provided information about the dosage range for 2C", "answers": ["Paragraph 26"], "all_classes": null, "length": 9824}
+{"pred": "30", "answers": ["Paragraph 1"], "all_classes": null, "length": 9324}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 10"], "all_classes": null, "length": 10299}
+{"pred": "2\n\nAnswer format:\n\n\nParagraph 1\n\nParagraph 2\n\nParagraph 3\n\nParagraph 4\n", "answers": ["Paragraph 8"], "all_classes": null, "length": 9489}
+{"pred": "10\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 1", "answers": ["Paragraph 3"], "all_classes": null, "length": 8281}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 27"], "all_classes": null, "length": 8804}
+{"pred": "19\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 15"], "all_classes": null, "length": 8473}
+{"pred": "30.\n\n\n\n\n", "answers": ["Paragraph 21"], "all_classes": null, "length": 9216}
+{"pred": "30.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 28"], "all_classes": null, "length": 10941}
+{"pred": "1\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 10198}
+{"pred": "1.\n\n\n", "answers": ["Paragraph 9"], "all_classes": null, "length": 8526}
+{"pred": "10\n\nThe following is an abstract.\n\nThe text discusses the divided loyalties of Maryland during the Civil War. It mentions that", "answers": ["Paragraph 20"], "all_classes": null, "length": 8039}
+{"pred": "20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 15"], "all_classes": null, "length": 9207}
+{"pred": "1\n\nThe following is a paragraph from the book.\n\nDuring the battle, two PVA battalions successfully attacked a portion of the tren", "answers": ["Paragraph 6"], "all_classes": null, "length": 9357}
+{"pred": "1\n\nThe following is an abstract.\n\nThe 2011 AFL season was the 14th in the Australian Football League.", "answers": ["Paragraph 23"], "all_classes": null, "length": 9713}
+{"pred": "1.\n\n\n\nThe following is an abstract.\n\n\n\nThe answer is: 2.\n\n\n\nThe answer is: ", "answers": ["Paragraph 26"], "all_classes": null, "length": 8114}
+{"pred": "1\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.", "answers": ["Paragraph 18"], "all_classes": null, "length": 9148}
+{"pred": "1", "answers": ["Paragraph 11"], "all_classes": null, "length": 8795}
+{"pred": "19.", "answers": ["Paragraph 18"], "all_classes": null, "length": 8491}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 7"], "all_classes": null, "length": 8642}
+{"pred": "27.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Par", "answers": ["Paragraph 24"], "all_classes": null, "length": 11270}
+{"pred": "30", "answers": ["Paragraph 23"], "all_classes": null, "length": 9267}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8747}
+{"pred": "1", "answers": ["Paragraph 18"], "all_classes": null, "length": 10176}
+{"pred": "2\n\nThe answer is: 1\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 28"], "all_classes": null, "length": 8712}
+{"pred": "1", "answers": ["Paragraph 3"], "all_classes": null, "length": 8315}
+{"pred": "30.", "answers": ["Paragraph 5"], "all_classes": null, "length": 9403}
+{"pred": "19\n\nThe abstract is:\n\nParagraph 19: In 1991, the first two seasons of the National Rugby League", "answers": ["Paragraph 27"], "all_classes": null, "length": 10242}
+{"pred": "1", "answers": ["Paragraph 24"], "all_classes": null, "length": 8143}
+{"pred": "1\n\nThe following is an abstract.\n\nThe son of Joseph Rubin Bostrom, he was educated at the University of Manitoba,", "answers": ["Paragraph 29"], "all_classes": null, "length": 9508}
+{"pred": "22\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 23"], "all_classes": null, "length": 7817}
+{"pred": "17\n\n\n", "answers": ["Paragraph 17"], "all_classes": null, "length": 7533}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 16"], "all_classes": null, "length": 9056}
+{"pred": "17\n\nParagraph 30\n\nThe text provides information about the family of Don Francisco Carascon and his relatives. Don Francisco was married", "answers": ["Paragraph 18"], "all_classes": null, "length": 9565}
+{"pred": "12\n\n\nThe following is an abstract.\n\nThe text discusses the life of Dr. Chávez, who was credited with invent", "answers": ["Paragraph 13"], "all_classes": null, "length": 10347}
+{"pred": "1.\n\nThe answer is: 1.\n\nThe answer is: 1.\n\nThe answer is: 1.\n\nThe", "answers": ["Paragraph 20"], "all_classes": null, "length": 9260}
+{"pred": "2\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 2\n", "answers": ["Paragraph 18"], "all_classes": null, "length": 11516}
+{"pred": "15\n\nThe correct answer is: 15\n\nThe following is an abstract.\n\nHere are 30 paragraphs from Wikipedia,", "answers": ["Paragraph 23"], "all_classes": null, "length": 9334}
+{"pred": "30\n\nThe following is a paragraph from Wikipedia.\n\nHere are 30 paragraphs from Wikipedia, along with an abstract.\n\nPlease", "answers": ["Paragraph 19"], "all_classes": null, "length": 10614}
+{"pred": "123.600\n\nIf the answer is not correct, please enter \"Not correct\" as your answer.\n\nThe answer is:", "answers": ["Paragraph 19"], "all_classes": null, "length": 9251}
+{"pred": "12\n\n", "answers": ["Paragraph 30"], "all_classes": null, "length": 9922}
+{"pred": "2.", "answers": ["Paragraph 13"], "all_classes": null, "length": 9459}
+{"pred": "1\n\nThe following is a paragraph from Wikipedia, along with an abstract.\n\nParagraph 1: The Celynen Collieries' Institute", "answers": ["Paragraph 9"], "all_classes": null, "length": 9025}
+{"pred": "1.\n\nThe answer is: 2.\n\nThe answer is: 3.\n\nThe answer is: 4.\n\nThe", "answers": ["Paragraph 22"], "all_classes": null, "length": 9717}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 11"], "all_classes": null, "length": 9446}
+{"pred": "30\n\nThe abstract is:  Please enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph ", "answers": ["Paragraph 3"], "all_classes": null, "length": 10308}
+{"pred": "19", "answers": ["Paragraph 12"], "all_classes": null, "length": 8558}
+{"pred": "1.", "answers": ["Paragraph 10"], "all_classes": null, "length": 9485}
+{"pred": "19\n\n\n", "answers": ["Paragraph 3"], "all_classes": null, "length": 8673}
+{"pred": "30\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 1", "answers": ["Paragraph 10"], "all_classes": null, "length": 9147}
+{"pred": "30.", "answers": ["Paragraph 2"], "all_classes": null, "length": 10298}
+{"pred": "2\n\nThe answer is: 23\n\nThe answer is: 12\n\nThe answer is: 3\n\nThe answer is", "answers": ["Paragraph 27"], "all_classes": null, "length": 8716}
+{"pred": "19\n\nParagraph 30\n\nThe answer is: 28\n\nParagraph 29\n\nThe answer is: ", "answers": ["Paragraph 7"], "all_classes": null, "length": 9171}
+{"pred": "12", "answers": ["Paragraph 20"], "all_classes": null, "length": 9357}
+{"pred": "20\n\nParagraph 1: He adopted the El Cholo name in 2008, working for Consejo Mundial de Lucha Lib", "answers": ["Paragraph 25"], "all_classes": null, "length": 10597}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 30"], "all_classes": null, "length": 8070}
+{"pred": "19\n\nThe answer is: 21\n\nThe answer is: 22\n\nThe answer is: 23\n\nThe", "answers": ["Paragraph 9"], "all_classes": null, "length": 9095}
+{"pred": "15\n\nThe following is an abstract.\n\nThe dinar replaced the first Sudanese pound (SDP) on June 8,", "answers": ["Paragraph 14"], "all_classes": null, "length": 8867}
+{"pred": "10\n\nThe answer format is: Paragraph 1\n\nThe answer is: 10\n\nThe answer format is: Paragraph ", "answers": ["Paragraph 8"], "all_classes": null, "length": 9895}
+{"pred": "20\n\nThe following is an abstract.\n\n\"Violently Happy\" received generally positive reviews from music critics. Critics described the song", "answers": ["Paragraph 8"], "all_classes": null, "length": 9072}
+{"pred": "1.\n\nThe abstract is from:\n\nParagraph 1: The LDS Church places great emphasis on the law of chastity.", "answers": ["Paragraph 19"], "all_classes": null, "length": 10852}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 22"], "all_classes": null, "length": 9767}
+{"pred": "1\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 1\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 9547}
+{"pred": "18.\n\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"", "answers": ["Paragraph 7"], "all_classes": null, "length": 8081}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text discusses how the company that is now deCODE Genetics began as a mineral expl", "answers": ["Paragraph 7"], "all_classes": null, "length": 7860}
+{"pred": "2.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 28"], "all_classes": null, "length": 9423}
+{"pred": "1\n\n", "answers": ["Paragraph 11"], "all_classes": null, "length": 7818}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 18"], "all_classes": null, "length": 10417}
+{"pred": "30\n\nThe following is an abstract.\n\nThe 2010 event on Ascension Day weekend of May 13–", "answers": ["Paragraph 9"], "all_classes": null, "length": 8644}
+{"pred": "1", "answers": ["Paragraph 16"], "all_classes": null, "length": 8429}
+{"pred": "19\n\nThe paragraph is:\n\nVenkatesh Kumar. G was born on 25 June 1981 to Adv", "answers": ["Paragraph 8"], "all_classes": null, "length": 8931}
+{"pred": "30\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 9098}
+{"pred": "22\n\nThe correct answer is: 22\n\n\nThe answer is: 23\n\nThe correct answer is: 23", "answers": ["Paragraph 7"], "all_classes": null, "length": 8751}
+{"pred": "19.", "answers": ["Paragraph 26"], "all_classes": null, "length": 9296}
+{"pred": "20\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 24"], "all_classes": null, "length": 9412}
+{"pred": "19.\n\nAnswer 19:\n\nParagraph 19: Court hearings began in spring 2006. The accused", "answers": ["Paragraph 20"], "all_classes": null, "length": 9968}
+{"pred": "13.\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nAnswer: 13", "answers": ["Paragraph 29"], "all_classes": null, "length": 9105}
+{"pred": "26\n\nThe following is an abstract.\n\nHavet is a novel by Danish author and painter Piet Hein, written in 19", "answers": ["Paragraph 28"], "all_classes": null, "length": 8924}
+{"pred": "1\n\n\nThe following is a paragraph from the Wikipedia article on the 1945 Potsdam Conference. Please determine which paragraph the abstract is", "answers": ["Paragraph 6"], "all_classes": null, "length": 9991}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 10601}
+{"pred": "1.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 4"], "all_classes": null, "length": 8559}
+{"pred": "1\n\nThe following is an abstract.\n\nIn this text, several events and conflicts unfold in the world of Osman Bey, the founder of the", "answers": ["Paragraph 29"], "all_classes": null, "length": 10041}
+{"pred": "1.\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.\n\nThe answer is: 1", "answers": ["Paragraph 11"], "all_classes": null, "length": 8851}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text describes the history of the Pandya Kingdom of Tamilakam and its subsequent migration to", "answers": ["Paragraph 7"], "all_classes": null, "length": 10303}
+{"pred": "2\n\nThe following is an abstract.\n\nThis text provides a brief summary of the life and career of Lloyd-Jones. He was born in", "answers": ["Paragraph 22"], "all_classes": null, "length": 9065}
+{"pred": "1", "answers": ["Paragraph 8"], "all_classes": null, "length": 8976}
+{"pred": "1\n\nAnswer: Paragraph 1", "answers": ["Paragraph 28"], "all_classes": null, "length": 8863}
+{"pred": "20", "answers": ["Paragraph 23"], "all_classes": null, "length": 9616}
+{"pred": "30\n\nThe answer format is:  Paragraph 1\n\nThe answer is: 1\n\nThe answer format is:  Paragraph", "answers": ["Paragraph 8"], "all_classes": null, "length": 9063}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 11"], "all_classes": null, "length": 8464}
+{"pred": "30\n\nThe answer should be: Paragraph 30", "answers": ["Paragraph 28"], "all_classes": null, "length": 9939}
+{"pred": "15\n\nThe text describes the physical characteristics of a species of lizard. It focuses on details such as the large head with swollen che", "answers": ["Paragraph 16"], "all_classes": null, "length": 7539}
+{"pred": "1\n\nThe correct answer is: 1\n\nThe text describes the activities of the Women Airforce Service Pilots (WASP) during World", "answers": ["Paragraph 2"], "all_classes": null, "length": 9321}
+{"pred": "10\n\nThe following is an abstract.\n\nThis text provides a summary of the writing career and influence of Singaporean poet Edwin Thumbo", "answers": ["Paragraph 1"], "all_classes": null, "length": 9976}
+{"pred": "1\n\nThe abstract is from Paragraph 1.\n\nThe answer is: 2\n\nThe abstract is from Paragraph 2.\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 7814}
+{"pred": "10\n\nThe answer is: 2\n\nThe answer is: 11\n\nThe answer is: 14\n\nThe answer", "answers": ["Paragraph 28"], "all_classes": null, "length": 10274}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 7"], "all_classes": null, "length": 9091}
+{"pred": "30.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Par", "answers": ["Paragraph 27"], "all_classes": null, "length": 10887}
+{"pred": "11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 16"], "all_classes": null, "length": 9628}
+{"pred": "1\n\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 8060}
+{"pred": "20.\n\nParagraph 31: The film was released on 11 January 2019, and grossed ₹3", "answers": ["Paragraph 26"], "all_classes": null, "length": 9395}
+{"pred": "30\n\n\n\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 8232}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 15"], "all_classes": null, "length": 9132}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 14"], "all_classes": null, "length": 8557}
+{"pred": "1\n\nThe answer format must be like \"Paragraph 1\", \"Paragraph 2\", etc.", "answers": ["Paragraph 25"], "all_classes": null, "length": 9374}
+{"pred": "1.\n\nParagraph 30: The text discusses the involvement of Hay in the War of 1812, where he commanded", "answers": ["Paragraph 6"], "all_classes": null, "length": 9024}
+{"pred": "1\n\nThe abstract is from paragraph 1.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like", "answers": ["Paragraph 2"], "all_classes": null, "length": 8492}
+{"pred": "30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 8944}
+{"pred": "1\n\n\nThe following is an abstract.\n\nThe Caterpillar in the Disney film is a blue creature who, as in the original", "answers": ["Paragraph 12"], "all_classes": null, "length": 8243}
+{"pred": "1", "answers": ["Paragraph 12"], "all_classes": null, "length": 8452}
+{"pred": "1.\n\nThe answer is: 2.\n\nThe answer is: 3.\n\nThe answer is: 4.\n\nThe", "answers": ["Paragraph 8"], "all_classes": null, "length": 8418}
+{"pred": "1879\n\nThe following is an abstract.\n\nThe Priapeia (or Carmina Priapea) is a collection of", "answers": ["Paragraph 20"], "all_classes": null, "length": 9471}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text describes the operation of the West Side and Yonkers Patent Elevated Railway Company.", "answers": ["Paragraph 25"], "all_classes": null, "length": 8888}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text describes the history of the Edward family and the events that led up to the mystery of the disapp", "answers": ["Paragraph 23"], "all_classes": null, "length": 8088}
+{"pred": "1.\n\nThe answer is: 2.\n\nThe answer is: 3.\n\nThe answer is: 4.\n\nThe", "answers": ["Paragraph 30"], "all_classes": null, "length": 10318}
+{"pred": "15\n\nThe following is an abstract.\n\nThe text describes the events surrounding the expedition to conquer the Itza kingdom. Ursúa, the", "answers": ["Paragraph 7"], "all_classes": null, "length": 10754}
+{"pred": "30", "answers": ["Paragraph 10"], "all_classes": null, "length": 8055}
+{"pred": "1", "answers": ["Paragraph 30"], "all_classes": null, "length": 9471}
+{"pred": "3\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 9"], "all_classes": null, "length": 9415}
+{"pred": "1\n\nThe correct answer is: 1\n\nThe following is an abstract.\n\nThe text describes the character Silver from the television show \"9", "answers": ["Paragraph 17"], "all_classes": null, "length": 10382}
+{"pred": "12\n\nThe abstract is from:  https://en.wikipedia.org/wiki/Prisma_(band)\n\nThe answer is:", "answers": ["Paragraph 30"], "all_classes": null, "length": 10098}
+{"pred": "1", "answers": ["Paragraph 10"], "all_classes": null, "length": 10972}
+{"pred": "1", "answers": ["Paragraph 26"], "all_classes": null, "length": 8937}
+{"pred": "20\n\nIf the answer is not 20, please enter the number of the paragraph that the abstract is from. The answer format must be like", "answers": ["Paragraph 27"], "all_classes": null, "length": 8275}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 26"], "all_classes": null, "length": 9032}
+{"pred": "1.\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 8"], "all_classes": null, "length": 7990}
+{"pred": "30\n\nIf you are done, please click on the \"Finished\" button.\n\n<input type=\"submit\" value=\"Finished\"", "answers": ["Paragraph 30"], "all_classes": null, "length": 9969}
+{"pred": "30\n\n", "answers": ["Paragraph 13"], "all_classes": null, "length": 9356}
+{"pred": "2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 9827}
+{"pred": "17\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph", "answers": ["Paragraph 24"], "all_classes": null, "length": 8886}
+{"pred": "21.\n\n\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 7953}
+{"pred": "24\n\nParagraph 30:\n\nThe text discusses the various works and accomplishments of a writer named Scott. In addition to writing", "answers": ["Paragraph 24"], "all_classes": null, "length": 9019}
+{"pred": "1", "answers": ["Paragraph 25"], "all_classes": null, "length": 9668}
+{"pred": "30\n\nThe following is an abstract.\n\nIn the month of December 2017, Mumbai City FC had several matches in", "answers": ["Paragraph 24"], "all_classes": null, "length": 9446}
+{"pred": "1\n\nThe correct answer is: 1", "answers": ["Paragraph 1"], "all_classes": null, "length": 9333}
+{"pred": "18\n\n", "answers": ["Paragraph 25"], "all_classes": null, "length": 9006}
+{"pred": "2\n\nParagraph 30\n\nParagraph 31\n\nParagraph 32\n\nParagraph 33\n\nPar", "answers": ["Paragraph 2"], "all_classes": null, "length": 10134}
+{"pred": "1\n\nPlease enter the number of the paragraph that the abstract is from. The answer format must be like \"Paragraph 1\", \"Paragraph ", "answers": ["Paragraph 27"], "all_classes": null, "length": 8214}
+{"pred": "10\n\nThe following is an abstract.\n\nIn February 2004, Chanté released her third single \"Bad Boy\", which", "answers": ["Paragraph 4"], "all_classes": null, "length": 10149}

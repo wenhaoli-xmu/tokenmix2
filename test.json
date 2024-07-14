@@ -1,0 +1,56 @@
+[
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.128k",
+        "num_instance": 100,
+        "truncation": 1024 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.128k",
+        "num_instance": 100,
+        "truncation": 2048 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.128k",
+        "num_instance": 100,
+        "truncation": 4096 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "proof-pile.128k",
+        "num_instance": 79,
+        "truncation": 1024 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "proof-pile.128k",
+        "num_instance": 79,
+        "truncation": 2048 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "proof-pile.128k",
+        "num_instance": 79,
+        "truncation": 4096 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "code-parrot.128k",
+        "num_instance": 100,
+        "truncation": 1024 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "code-parrot.128k",
+        "num_instance": 100,
+        "truncation": 2048 
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "code-parrot.128k",
+        "num_instance": 100,
+        "truncation": 4096 
+    }
+]

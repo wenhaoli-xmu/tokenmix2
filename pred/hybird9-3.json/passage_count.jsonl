@@ -1,0 +1,200 @@
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["8"], "all_classes": null, "length": 11221}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["11"], "all_classes": null, "length": 9921}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 6578}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["44"], "all_classes": null, "length": 16346}
+{"pred": "1\n\nThe input format should be a list of paragraphs, each paragraph separated by a new line.\n\nThe output format should be a single number,", "answers": ["2"], "all_classes": null, "length": 22099}
+{"pred": "29\n\nA: This is a simple solution using regex.\n\nimport re\n\ndef count_paragraphs(text):\n    return len(", "answers": ["7"], "all_classes": null, "length": 8383}
+{"pred": "18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 4974}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["45"], "all_classes": null, "length": 13970}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["4"], "all_classes": null, "length": 14086}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 12357}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["4"], "all_classes": null, "length": 15623}
+{"pred": "29\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 11059}
+{"pred": "17\n\nA: Here is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["5"], "all_classes": null, "length": 3991}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["44"], "all_classes": null, "length": 17077}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["19"], "all_classes": null, "length": 11340}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["36"], "all_classes": null, "length": 10543}
+{"pred": "28\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["24"], "all_classes": null, "length": 8141}
+{"pred": "34\n\nA: This is a good question. I've been looking for a way to do this for a while.\n\nThe first thing to", "answers": ["12"], "all_classes": null, "length": 8534}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["23"], "all_classes": null, "length": 13749}
+{"pred": "1\n\nA: This is a simple solution using a regex to remove duplicates.\n\nimport re\n\ndef remove_duplicates(text):\n   ", "answers": ["14"], "all_classes": null, "length": 5649}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["18"], "all_classes": null, "length": 13512}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["29"], "all_classes": null, "length": 14584}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["22"], "all_classes": null, "length": 12667}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["6"], "all_classes": null, "length": 6510}
+{"pred": "20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["8"], "all_classes": null, "length": 6283}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 13036}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["26"], "all_classes": null, "length": 5249}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output format should be: 1\n\nThe final output should be: 1\n", "answers": ["26"], "all_classes": null, "length": 17369}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["28"], "all_classes": null, "length": 10898}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["43"], "all_classes": null, "length": 13330}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["34"], "all_classes": null, "length": 13153}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["19"], "all_classes": null, "length": 9732}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 9246}
+{"pred": "1\n\nA: This is a simple solution using a dictionary to store the paragraphs and a list comprehension to count the unique paragraphs.\n\ndef", "answers": ["40"], "all_classes": null, "length": 11663}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 17590}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["26"], "all_classes": null, "length": 9718}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["25"], "all_classes": null, "length": 13084}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 18601}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["35"], "all_classes": null, "length": 12177}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["20"], "all_classes": null, "length": 11563}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["39"], "all_classes": null, "length": 16004}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["7"], "all_classes": null, "length": 13534}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["12"], "all_classes": null, "length": 10580}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 10333}
+{"pred": "50\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["30"], "all_classes": null, "length": 14264}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["4"], "all_classes": null, "length": 11680}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["21"], "all_classes": null, "length": 7461}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 12151}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["10"], "all_classes": null, "length": 6481}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["6"], "all_classes": null, "length": 9456}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 8395}
+{"pred": "1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output", "answers": ["13"], "all_classes": null, "length": 4822}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 11201}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 11740}
+{"pred": "33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["18"], "all_classes": null, "length": 9707}
+{"pred": "21\n\nA: This is a simple solution using a regex to remove all the paragraphs that are not the final paragraph.\n\nimport re\n\n", "answers": ["7"], "all_classes": null, "length": 7447}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 6927}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["5"], "all_classes": null, "length": 13709}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["14"], "all_classes": null, "length": 16551}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["40"], "all_classes": null, "length": 15237}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["18"], "all_classes": null, "length": 13155}
+{"pred": "37\n\nA: This is a simple solution using regex.\n\nimport re\n\ndef count_paragraphs(text):\n    return len(", "answers": ["2"], "all_classes": null, "length": 13433}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["20"], "all_classes": null, "length": 13372}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["30"], "all_classes": null, "length": 12589}
+{"pred": "22\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["12"], "all_classes": null, "length": 6751}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["43"], "all_classes": null, "length": 15519}
+{"pred": "1\n\nA: This is a very simple solution. \n\nThe first step is to read the file and store the paragraphs in a list. ", "answers": ["10"], "all_classes": null, "length": 10373}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 6690}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["20"], "all_classes": null, "length": 8138}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["37"], "all_classes": null, "length": 9910}
+{"pred": "33\n\nA: This is a very simple solution.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text.", "answers": ["15"], "all_classes": null, "length": 9802}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["17"], "all_classes": null, "length": 10817}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["5"], "all_classes": null, "length": 10977}
+{"pred": "26\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["9"], "all_classes": null, "length": 8150}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["21"], "all_classes": null, "length": 7300}
+{"pred": "1\n\nA: This is a simple solution using the split() function.\n\nimport re\n\ndef count_paragraphs(text):\n    text", "answers": ["26"], "all_classes": null, "length": 14083}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["19"], "all_classes": null, "length": 18136}
+{"pred": "17\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 5562}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 5442}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["17"], "all_classes": null, "length": 12213}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 13084}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 12754}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["5"], "all_classes": null, "length": 7079}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["19"], "all_classes": null, "length": 8018}
+{"pred": "1\n\nA: \n\nB: \n\nC: \n\nD: \n\nE: \n\nF: \n\n", "answers": ["13"], "all_classes": null, "length": 9086}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["19"], "all_classes": null, "length": 11301}
+{"pred": "1\n\nThe input format should be a list of paragraphs, each separated by a new line. The paragraphs should be separated by a new line, and", "answers": ["12"], "all_classes": null, "length": 8771}
+{"pred": "17\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["15"], "all_classes": null, "length": 6573}
+{"pred": "1\n\nThe input format should be a list of paragraphs, each on a new line. The paragraphs should be separated by a blank line.\n\n", "answers": ["7"], "all_classes": null, "length": 5522}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["16"], "all_classes": null, "length": 10898}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output format should be: 1\n\nThe final output should be: 1\n", "answers": ["5"], "all_classes": null, "length": 8866}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 11143}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["3"], "all_classes": null, "length": 11516}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["27"], "all_classes": null, "length": 11744}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["21"], "all_classes": null, "length": 14392}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["8"], "all_classes": null, "length": 13321}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["26"], "all_classes": null, "length": 11086}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 9267}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 6650}
+{"pred": "19\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 3554}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["10"], "all_classes": null, "length": 13846}
+{"pred": "1\n\nA: This is a very simple solution.\n\nThe first step is to read the file and store the paragraphs in a list.\n\n", "answers": ["11"], "all_classes": null, "length": 7488}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["38"], "all_classes": null, "length": 13904}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["11"], "all_classes": null, "length": 6245}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["19"], "all_classes": null, "length": 10261}
+{"pred": "1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output", "answers": ["5"], "all_classes": null, "length": 18130}
+{"pred": "1\n\nA: This is a very simple program that counts the number of unique paragraphs in a given file. It does this by reading the file line by", "answers": ["23"], "all_classes": null, "length": 12919}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["21"], "all_classes": null, "length": 16375}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 14767}
+{"pred": "27\n\nA: This is a very simple solution.\n\nThe first step is to read the file into a list of paragraphs.\n\nThe", "answers": ["4"], "all_classes": null, "length": 9363}
+{"pred": "29\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["24"], "all_classes": null, "length": 9779}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["46"], "all_classes": null, "length": 14598}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["21"], "all_classes": null, "length": 14280}
+{"pred": "27\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["20"], "all_classes": null, "length": 10288}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 5651}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["30"], "all_classes": null, "length": 11494}
+{"pred": "18\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["2"], "all_classes": null, "length": 3967}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["7"], "all_classes": null, "length": 8047}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["14"], "all_classes": null, "length": 12816}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["29"], "all_classes": null, "length": 12602}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 6561}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["41"], "all_classes": null, "length": 13506}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["25"], "all_classes": null, "length": 14899}
+{"pred": "38\n\nA: This is a very simple solution.\n\nThe first step is to read the file and store the paragraphs in a list.\n", "answers": ["39"], "all_classes": null, "length": 12547}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["18"], "all_classes": null, "length": 10765}
+{"pred": "1\n\nA: This is a simple solution using a regex to remove all the duplicates.\n\nimport re\n\ndef remove_duplicates(s):", "answers": ["7"], "all_classes": null, "length": 6447}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["30"], "all_classes": null, "length": 18934}
+{"pred": "19\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["9"], "all_classes": null, "length": 6231}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["28"], "all_classes": null, "length": 10433}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["37"], "all_classes": null, "length": 12074}
+{"pred": "100\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 12913}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["33"], "all_classes": null, "length": 11704}
+{"pred": "1\n\nA: This is a simple solution to the problem.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["14"], "all_classes": null, "length": 6751}
+{"pred": "1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output is: 1\n\nThe final output", "answers": ["21"], "all_classes": null, "length": 12119}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 12140}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 16806}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["19"], "all_classes": null, "length": 12672}
+{"pred": "16\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["12"], "all_classes": null, "length": 4960}
+{"pred": "34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["3"], "all_classes": null, "length": 6404}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["32"], "all_classes": null, "length": 14244}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["44"], "all_classes": null, "length": 12279}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["23"], "all_classes": null, "length": 13851}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["17"], "all_classes": null, "length": 9334}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["39"], "all_classes": null, "length": 14435}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["23"], "all_classes": null, "length": 12927}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 10543}
+{"pred": "1\n\nThe input format should be a file containing a list of paragraphs. The paragraphs should be separated by a blank line. The paragraphs should not", "answers": ["4"], "all_classes": null, "length": 17186}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["26"], "all_classes": null, "length": 15302}
+{"pred": "17\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["16"], "all_classes": null, "length": 6374}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 10190}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["17"], "all_classes": null, "length": 5700}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["27"], "all_classes": null, "length": 15210}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["7"], "all_classes": null, "length": 4858}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 9469}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 15454}
+{"pred": "42\n\nA: This is a simple solution using regex.\n\nimport re\n\ndef count_paragraphs(text):\n    return len(", "answers": ["3"], "all_classes": null, "length": 13841}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["3"], "all_classes": null, "length": 9325}
+{"pred": "1\n\nA: This is a simple solution using a hash table.\n\ndef count_paragraphs(text):\n    count = 0\n   ", "answers": ["3"], "all_classes": null, "length": 6771}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 11684}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["3"], "all_classes": null, "length": 13730}
+{"pred": "26\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["17"], "all_classes": null, "length": 8501}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["22"], "all_classes": null, "length": 13035}
+{"pred": "1\n\nA: This is a simple solution using a dictionary to count the number of unique paragraphs.\n\ndef count_paragraphs(text):\n", "answers": ["16"], "all_classes": null, "length": 9281}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["17"], "all_classes": null, "length": 7400}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["4"], "all_classes": null, "length": 14283}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["7"], "all_classes": null, "length": 12616}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["38"], "all_classes": null, "length": 12285}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["17"], "all_classes": null, "length": 14999}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["15"], "all_classes": null, "length": 13557}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["34"], "all_classes": null, "length": 15684}
+{"pred": "1\n\nThe input format should be a list of paragraphs, each separated by a new line.\n\nThe output format should be a single number, such", "answers": ["5"], "all_classes": null, "length": 12236}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["22"], "all_classes": null, "length": 16104}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["30"], "all_classes": null, "length": 9118}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 17635}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["6"], "all_classes": null, "length": 8470}
+{"pred": "16\n\nThe final output should be: 16\n\nThe final output format should be: 16\n\nThe final output should be:", "answers": ["7"], "all_classes": null, "length": 5326}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["31"], "all_classes": null, "length": 12687}
+{"pred": "21\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text =", "answers": ["5"], "all_classes": null, "length": 5518}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["35"], "all_classes": null, "length": 15203}
+{"pred": "34\n\nA: This is a very simple solution.\n\nThe first step is to read the file into a list of paragraphs.\n\nThe", "answers": ["24"], "all_classes": null, "length": 7955}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["37"], "all_classes": null, "length": 12718}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 12939}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["28"], "all_classes": null, "length": 12397}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 11938}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["4"], "all_classes": null, "length": 8543}
+{"pred": "1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\nThe final output should be: 1\n\n", "answers": ["11"], "all_classes": null, "length": 8590}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 9543}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["26"], "all_classes": null, "length": 13429}
+{"pred": "43\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 9585}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["42"], "all_classes": null, "length": 15870}
+{"pred": "34\n\nA: This is a very simple solution.\n\nThe first step is to read the file and store the paragraphs in a list.\n", "answers": ["26"], "all_classes": null, "length": 12313}
+{"pred": "1\n\nA: This is a solution in Python 3.\n\nimport re\n\ndef count_paragraphs(text):\n    text = text", "answers": ["21"], "all_classes": null, "length": 6986}
+{"pred": "1\n\nThe input format should be a list of paragraphs, each separated by a new line.\n\nThe output format should be a single number, such", "answers": ["19"], "all_classes": null, "length": 9484}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["26"], "all_classes": null, "length": 15479}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["5"], "all_classes": null, "length": 9960}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["20"], "all_classes": null, "length": 14973}
+{"pred": "1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer is: 1\n\nThe final answer", "answers": ["15"], "all_classes": null, "length": 13734}
+{"pred": "23\n\nA: \nimport re\n\ndef count_paragraphs(text):\n    text = text.lower()\n    text = re", "answers": ["10"], "all_classes": null, "length": 6073}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["17"], "all_classes": null, "length": 15984}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["28"], "all_classes": null, "length": 6972}

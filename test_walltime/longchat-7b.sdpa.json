@@ -1,0 +1,83 @@
+{
+    "model": {
+        "model_name": "lmsys/longchat-7b-v1.5-32k",
+        "model_dtype": "fp16",
+        "model_method": "sdpa",
+        "model_structure": null,
+        "save_ckp": "null",
+        "load_ckp": null,
+        "config": null,
+        "device_map": {
+            "model.embed_tokens": 0,
+            "model.layers.0": 0,
+            "model.layers.1": 0,
+            "model.layers.2": 0,
+            "model.layers.3": 0,
+            "model.layers.4": 1,
+            "model.layers.5": 1,
+            "model.layers.6": 1,
+            "model.layers.7": 1,
+            "model.layers.8": 2,
+            "model.layers.9": 2,
+            "model.layers.10": 2,
+            "model.layers.11": 2,
+            "model.layers.12": 3,
+            "model.layers.13": 3,
+            "model.layers.14": 3,
+            "model.layers.15": 3,
+            "model.layers.16": 4,
+            "model.layers.17": 4,
+            "model.layers.18": 4,
+            "model.layers.19": 4,
+            "model.layers.20": 5,
+            "model.layers.21": 5,
+            "model.layers.22": 5,
+            "model.layers.23": 5,
+            "model.layers.24": 6,
+            "model.layers.25": 6,
+            "model.layers.26": 6,
+            "model.layers.27": 6,
+            "model.layers.28": 7,
+            "model.layers.29": 7,
+            "model.layers.30": 7,
+            "model.layers.31": 7,
+            "model.norm": 7,
+            "lm_head": 7
+        }
+    },
+
+    "train": {
+        "train_iters": 10000,
+        "max_lr": 1e-4,
+        "warmup": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "weight_decay": 0,
+        "corpus": [
+            {
+                "name": "beacons sampled.4096",
+                "partition": 1,
+                "truncation": 2048
+            }
+        ],
+        "accum_grad": 1,
+        "clip_grad": 1.0,
+
+        "save": 1000,
+        "eval": 1000,
+        "tasks": [
+            {
+                "task_type": "perplexity",
+                "task_name": "pg19.test.128k",
+                "num_instance": 1,
+                "truncation": 1024
+            },
+            {
+                "task_type": "perplexity",
+                "task_name": "pg19.test.128k",
+                "num_instance": 1,
+                "truncation": 2048 
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "model": {
+        "model_name": "meta-llama/Llama-2-7b-hf",
+        "model_dtype": "fp16",
+        "model_method": "hybird3",
+        "model_structure": "llama",
+        "save_ckp": "ckp/hybird3-8.pth",
+        "load_ckp": null,
+        "config": "config/hybird3-4.json",
+        "device_map": {
+            "": 0
+        }
+    },
+
+    "train": {
+        "train_iters": 10000,
+        "max_lr": 1e-5,
+        "warmup": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "weight_decay": 0,
+        "corpus": [
+            {
+                "name": "beacons sampled.4096",
+                "partition": 1,
+                "truncation": 4096
+            }
+        ],
+        "accum_grad": 1,
+        "clip_grad": 1.0,
+
+        "save": 1000,
+        "eval": 1000,
+        "tasks": []
+    }
+}

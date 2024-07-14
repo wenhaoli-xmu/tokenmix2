@@ -1,0 +1,10 @@
+{
+    "chunk_size": 64,
+    "enable_lora": false,
+    "trainable_token": 1024,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}

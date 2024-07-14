@@ -1,0 +1,71 @@
+{
+    "model": {
+        "model_name": "meta-llama/Llama-2-7b-hf",
+        "model_dtype": "bf16",
+        "model_method": "hybird5",
+        "model_structure": "llama",
+        "save_ckp": "ckp/hybird5-2.pth",
+        "load_ckp": null,
+        "config": "config/hybird5-8.json",
+        "device_map": {
+            "sum_token": 0,
+            "decoder.decoder.model.embed_tokens": 0,
+            "decoder.decoder.model.layers.0": 0,
+            "decoder.decoder.model.layers.1": 0,
+            "decoder.decoder.model.layers.2": 0,
+            "decoder.decoder.model.layers.3": 0,
+            "decoder.decoder.model.layers.4": 0,
+            "decoder.decoder.model.layers.5": 0,
+            "decoder.decoder.model.layers.6": 0,
+            "decoder.decoder.model.layers.7": 0,
+            "decoder.decoder.model.layers.8": 1,
+            "decoder.decoder.model.layers.9": 1,
+            "decoder.decoder.model.layers.10": 1,
+            "decoder.decoder.model.layers.11": 1,
+            "decoder.decoder.model.layers.12": 1,
+            "decoder.decoder.model.layers.13": 1,
+            "decoder.decoder.model.layers.14": 1,
+            "decoder.decoder.model.layers.15": 1,
+            "decoder.decoder.model.layers.16": 2,
+            "decoder.decoder.model.layers.17": 2,
+            "decoder.decoder.model.layers.18": 2,
+            "decoder.decoder.model.layers.19": 2,
+            "decoder.decoder.model.layers.20": 2,
+            "decoder.decoder.model.layers.21": 2,
+            "decoder.decoder.model.layers.22": 2,
+            "decoder.decoder.model.layers.23": 2,
+            "decoder.decoder.model.layers.24": 3,
+            "decoder.decoder.model.layers.25": 3,
+            "decoder.decoder.model.layers.26": 3,
+            "decoder.decoder.model.layers.27": 3,
+            "decoder.decoder.model.layers.28": 3,
+            "decoder.decoder.model.layers.29": 3,
+            "decoder.decoder.model.layers.30": 3,
+            "decoder.decoder.model.layers.31": 3,
+            "decoder.decoder.model.norm": 3,
+            "decoder.decoder.lm_head": 3
+        }
+    },
+
+    "train": {
+        "train_iters": 10000,
+        "max_lr": 1e-5,
+        "warmup": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "weight_decay": 0,
+        "corpus": [
+            {
+                "name": "beacons sampled.4096",
+                "partition": 1,
+                "truncation": 2048
+            }
+        ],
+        "accum_grad": 1,
+        "clip_grad": 1.0,
+
+        "save": 1000,
+        "eval": 1000,
+        "tasks": []
+    }
+}

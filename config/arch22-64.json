@@ -1,0 +1,9 @@
+{
+    "chunk_size": 64,
+    "enable_lora": false,
+    "lora_kwargs": {
+        "lora_rank": 128,
+        "lora_alpha": 512,
+        "lora_dropout": 0
+    }
+}
