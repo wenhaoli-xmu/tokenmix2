@@ -1,7 +1,7 @@
 import torch
 import types
-from src.modifiers.modify_llama import ProjectHead, QKVProj, LlamaRMSNorm
-from src.modifiers.modify_llama_archx_utils import do_hidden_attn, do_beacon_attn, do_forget_attn, qkv_proj, fast_gate_attn
+from ..modifiers.modify_llama import ProjectHead, QKVProj, LlamaRMSNorm
+from ..modifiers.modify_llama_archx_utils import do_hidden_attn, do_beacon_attn, do_forget_attn, qkv_proj, fast_gate_attn
 from peft import get_peft_model, LoraConfig, TaskType
 
 

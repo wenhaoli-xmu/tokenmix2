@@ -1,6 +1,6 @@
-from src.misc import get_model_and_tokenizer
-from src.misc import get_env_conf
-from src.misc import Evaluator, RMTEvaluator, ENCEvaluator
+from tokenmix2.misc import get_model_and_tokenizer
+from tokenmix2.misc import get_env_conf
+from tokenmix2.misc import Evaluator, RMTEvaluator, ENCEvaluator
 import argparse, os
 
 
@@ -8,12 +8,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--env_conf", type=str, default=None)
     parser.add_argument("--use_env_conf_tasks", action="store_true", default=False)
-    parser.add_argument("--rmt", action="store_true", default=False)
-    parser.add_argument("--enc", action='store_true', default=False)
+    parser.add_argument('--rmt', action='store_true', default=False)
     args = parser.parse_args()
 
     env_conf = get_env_conf(args.env_conf)
-    test_conf = get_env_conf("test.json")
+    test_conf = get_env_conf("test_ppl/test.json")
 
     tokenizer, model = get_model_and_tokenizer(**env_conf["model"])
     model.eval()
@@ -27,8 +26,6 @@ if __name__ == '__main__':
 
     if args.rmt:
         evaluator_class = RMTEvaluator
-    elif args.enc:
-        evaluator_class = ENCEvaluator
     else:
         evaluator_class = Evaluator
 

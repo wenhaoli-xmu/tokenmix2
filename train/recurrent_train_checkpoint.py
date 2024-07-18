@@ -2,7 +2,7 @@ import argparse
 import torch
 import random
 
-from tokenmix2.misc import get_model_and_tokenizer, get_env_conf, get_optimizer_and_lr_adjuster, get_data_generator
+from tokenmix2.misc import get_model_and_tokenizer, get_env_conf, get_optimizer_and_lr_adjuster
 from tokenmix2.misc import Saver, RMTEvaluator
 from tokenmix2.modifier import segment
 from corpus import get_processor, LazyRandomSampleCorpus
@@ -35,7 +35,6 @@ if __name__ == '__main__':
     dataset = ConcatDataset(corpus)
     loader = DataLoader(dataset, batch_size=1, shuffle=True)
 
-
     saver = Saver(model, **env_conf["train"])
     evaluator = RMTEvaluator(model, tokenizer, **env_conf["train"])
 
@@ -49,7 +48,7 @@ if __name__ == '__main__':
 
     def warp_data(input_ids, labels, attention_mask):
         chunk_size = model.conf['chunk_size']
-        seq_len = len(input_ids)
+        labels = labels[1:] + [-100]
 
         input_ids = torch.tensor(input_ids, dtype=torch.int64)[None, :]
         labels = torch.tensor(labels, dtype=torch.int64)[None, :]
@@ -58,21 +57,16 @@ if __name__ == '__main__':
         input_ids = segment(input_ids, dim=-1, n=chunk_size)
         labels = segment(labels, dim=-1, n=chunk_size)
         attention_mask = segment(attention_mask, dim=-1, n=chunk_size)
-        loss = torch.nn.CrossEntropyLoss()
 
-        def compute_loss(logits, target):
-            assert logits.logits.shape[0] == 1
-            return loss(logits.logits[0], target[0]) * (chunk_size / seq_len)
+        def compute_loss(outputs, valid_token_num):
+            return outputs.loss / valid_token_num
 
-        for inpus, labs, masks in zip(input_ids, labels, attention_mask):
-            labs_shift = torch.full_like(labs[:, :1], fill_value=-100)
-            labs_shift = torch.cat([labs[:, :-1], labs_shift], dim=-1)
+        for inpus, labs in zip(input_ids, labels):
             yield ({
                 "input_ids": inpus,
-                "attention_mask": masks},
-                partial(compute_loss, target=labs_shift))
-        
-        
+                "labels": labs},
+                partial(compute_loss, valid_token_num=(labs != -100).count_nonzero()))
+
 
     for step, batch in enumerate(loader):
 
@@ -81,6 +75,7 @@ if __name__ == '__main__':
 
         past_memories = []
         past_grads = []
+        accum_loss = 0
 
         # forward propagation
         past_memory = None
@@ -93,8 +88,7 @@ if __name__ == '__main__':
             # backward prop
             if compute_loss is not None:
                 loss = compute_loss(outputs) / accum_grad
-                print(loss.item())
-                wandb.log({"Train": {"Samples": {"train_loss": loss.item()}}})                
+                accum_loss += loss.item()
                 if loss.requires_grad:
                     loss.backward()
             else:
@@ -148,7 +142,7 @@ if __name__ == '__main__':
         torch.cuda.empty_cache()
 
         # update the parameters
-        if (iter + 1) % accum_grad == 0:
+        if (step + 1) % accum_grad == 0:
             if clip_grad is not None:
                 torch.nn.utils.clip_grad_norm_(model.ft_params(), max_norm=clip_grad)
             optim.step()
@@ -159,6 +153,7 @@ if __name__ == '__main__':
         torch.cuda.empty_cache()
 
         saver.step()
-        evaluator.step()      
+        print(accum_loss)
+        wandb.log({"Train": {"Samples": {"train_loss": accum_loss}}})
 
     wandb.finish()

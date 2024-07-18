@@ -6,7 +6,7 @@
         "model_structure": "llama",
         "save_ckp": "ckp/arch18-1.pth",
         "load_ckp": null,
-        "config": "config/arch18-512.json",
+        "config": "config/arch18-64.json",
         "device_map": {
             "encoder.encoder.base_model.model.model.embed_tokens": 0,
             "encoder.encoder.base_model.model.model.layers.0": 0,
@@ -93,7 +93,7 @@
         "corpus": [
             {
                 "data": "data/slimpajama/arxiv.json",
-                "conf": "config/slimpajama-trunc16k.json",
+                "conf": "config/slimpajama-trunc1k.json",
                 "partition": 1
             }
         ],

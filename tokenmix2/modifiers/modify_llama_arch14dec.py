@@ -1,6 +1,6 @@
 import torch
 import types
-from src.modifiers.modify_llama import do_causal_flash_attn, compute_loss, ProjectHead
+from ..modifiers.modify_llama import do_causal_flash_attn, compute_loss, ProjectHead
 from transformers.models.llama.modeling_llama import CausalLMOutputWithPast
 from peft import LoraConfig, TaskType, get_peft_model
 

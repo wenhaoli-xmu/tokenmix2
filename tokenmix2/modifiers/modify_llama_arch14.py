@@ -5,9 +5,9 @@ from copy import deepcopy
 from typing import List
 from functools import partial
 
-from src.modifiers.modify_llama import segment
-from src.modifiers.modify_llama_arch14enc import Encoder
-from src.modifiers.modify_llama_arch14dec import Decoder
+from ..modifiers.modify_llama import segment
+from ..modifiers.modify_llama_arch14enc import Encoder
+from ..modifiers.modify_llama_arch14dec import Decoder
 
 
 class Model(torch.nn.Module):

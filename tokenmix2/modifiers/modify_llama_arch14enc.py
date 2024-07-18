@@ -1,7 +1,7 @@
 import torch
 import types
-from src.modifiers.modify_llama import ProjectHead, QKVProj
-from src.modifiers.modify_llama_arch14_utils import qkv_proj, do_hidden_attn, do_gate_attn, fast_gate_attn
+from ..modifiers.modify_llama import ProjectHead, QKVProj
+from ..modifiers.modify_llama_arch14_utils import qkv_proj, do_hidden_attn, do_gate_attn, fast_gate_attn
 from peft import get_peft_model, LoraConfig, TaskType
 
 
