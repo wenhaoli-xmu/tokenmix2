@@ -88,7 +88,7 @@ if __name__ == '__main__':
             # backward prop
             if compute_loss is not None:
                 loss = compute_loss(outputs) / accum_grad
-                accum_loss += loss.item()
+                accum_loss += loss.item() if loss.isnan().item() is False else 0
                 if loss.requires_grad:
                     loss.backward()
             else:

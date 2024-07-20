@@ -186,20 +186,20 @@ class LlamaARCH14(SegmentRecurrentModifier):
 
             # ============================================
             # NOTE: for test
-            scores, words = torch.topk(logits, k=20, dim=-1)
-            scores, words = scores.tolist()[0][0], words.tolist()[0][0]
+            # scores, words = torch.topk(logits, k=20, dim=-1)
+            # scores, words = scores.tolist()[0][0], words.tolist()[0][0]
 
-            generated = tokenizer.decode(input_ids[:,prompt_length:][0])
-            generated = generated.replace('\n', '\\n')
-            print(f"index: {input_ids.shape[-1] - prompt_length}  {generated}")
-            for idx, (score, index) in enumerate(zip(scores, words)):
-                word = tokenizer.decode(index)
-                print(f"\t{idx}. {word} {score}".replace('\n', '\\n'))
-            choice = input(">> ")
-            if choice == '':
-                choice = 0
-            choice = int(choice)
-            new_token = torch.tensor([[words[choice]]])
+            # generated = tokenizer.decode(input_ids[:,prompt_length:][0])
+            # generated = generated.replace('\n', '\\n')
+            # print(f"index: {input_ids.shape[-1] - prompt_length}  {generated}")
+            # for idx, (score, index) in enumerate(zip(scores, words)):
+            #     word = tokenizer.decode(index)
+            #     print(f"\t{idx}. {word} {score}".replace('\n', '\\n'))
+            # choice = input(">> ")
+            # if choice == '':
+            #     choice = 0
+            # choice = int(choice)
+            # new_token = torch.tensor([[words[choice]]])
             # ============================================
             
             # new_token = torch.argmax(logits, dim=-1)

@@ -1,7 +1,7 @@
 {
     "model": {
         "model_name": "meta-llama/Llama-2-7b-chat-hf",
-        "model_dtype": "fp16",
+        "model_dtype": "bf16",
         "model_method": "origin",
         "model_structure": null,
         "save_ckp": "null",

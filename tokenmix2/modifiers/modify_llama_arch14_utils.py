@@ -2,6 +2,7 @@ import torch
 import math
 from .modify_llama import flash_attn_func, new_posid, apply_rotary_pos_emb
 from functools import partial
+from ring_attention_pytorch import RingAttention
 
 
 def check_and_apply_gate_rope(query, key, value, cos, sin):
@@ -169,7 +170,7 @@ def fast_gate_attn(query, key, value, cos, sin, layer_id, o_proj):
     hid_attn = cat_attn[...,1:-chunk_size]
     bcn_attn = cat_attn[...,-chunk_size:]
 
-    # ===================
+    # =================================================================================================
     # # NOTE: test
     # score = Q @ K.transpose(-1,-2) / math.sqrt(128)
     # score = score + gen_mask(num_states=num_query, dtype=Q.dtype, device=Q.device, layer_id=layer_id)
@@ -182,7 +183,7 @@ def fast_gate_attn(query, key, value, cos, sin, layer_id, o_proj):
     # print(torch.dist(bcn_attn, bcn_attn2))
     # import IPython
     # IPython.embed(header='debug')
-    # ===================
+    # =================================================================================================
 
     mem_out = mem_attn * mem_val
     hid_out = hid_attn @ hid_val

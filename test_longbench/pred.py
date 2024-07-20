@@ -6,7 +6,7 @@ from tqdm import tqdm
 import numpy as np
 import random
 import argparse
-from tokenmix.misc import get_model_and_tokenizer
+from tokenmix2.misc import get_model_and_tokenizer
 
 from corpus.processor.conversations import get_conv_template
 

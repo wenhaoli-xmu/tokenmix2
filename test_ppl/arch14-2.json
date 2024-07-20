@@ -4,7 +4,7 @@
         "model_dtype": "bf16",
         "model_method": "arch14",
         "model_structure": "llama",
-        "save_ckp": "ckp/arch14-1.pth.5000",
+        "save_ckp": "ckp/arch14-2.pth.1000",
         "load_ckp": null,
         "config": "config/arch14-512.json",
         "device_map": {
