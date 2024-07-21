@@ -1,6 +1,6 @@
 import torch
 import math
-from src.modifiers.modify_llama import flash_attn_func, new_posid, apply_rotary_pos_emb
+from ..modifiers.modify_llama import flash_attn_func, new_posid, apply_rotary_pos_emb
 from functools import partial
 
 

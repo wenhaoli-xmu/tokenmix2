@@ -1,13 +1,13 @@
 import torch
 import torch.utils.checkpoint
-from src.modifier import SegmentRecurrentModifier
+from ..modifier import SegmentRecurrentModifier
 from copy import deepcopy
 from typing import List
 from functools import partial
 
-from src.modifiers.modify_llama import segment
-from src.modifiers.modify_llama_arch13enc import Encoder
-from src.modifiers.modify_llama_arch13dec import Decoder
+from ..modifiers.modify_llama import segment
+from ..modifiers.modify_llama_arch13enc import Encoder
+from ..modifiers.modify_llama_arch13dec import Decoder
 
 
 class Model(torch.nn.Module):
