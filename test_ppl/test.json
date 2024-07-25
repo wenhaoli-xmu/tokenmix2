@@ -2,19 +2,19 @@
     {
         "task_type": "perplexity",
         "task_name": "pg19.test.128k",
-        "num_instance": 100,
+        "num_instance": 1,
         "truncation": 1024 
     },
     {
         "task_type": "perplexity",
         "task_name": "pg19.test.128k",
-        "num_instance": 100,
+        "num_instance": 1,
         "truncation": 2048 
     },
     {
         "task_type": "perplexity",
         "task_name": "pg19.test.128k",
-        "num_instance": 100,
+        "num_instance": 1,
         "truncation": 4096 
     },
     {

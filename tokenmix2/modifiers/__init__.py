@@ -131,6 +131,10 @@ def get_modifier(method: str, model_type):
         if model_type == 'llama':
             from .modify_llama_arch22 import LlamaARCH22
             return None, LlamaARCH22
+    elif method == 'arch23':
+        if model_type == 'llama':
+            from .modify_llama_arch23 import LlamaARCH23
+            return None, LlamaARCH23
     elif method == 'hybird1':
         if model_type == 'llama':
             from .modify_llama_hybird1 import LlamaHybird1
